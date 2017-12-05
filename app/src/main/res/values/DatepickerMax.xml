@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dateMax_array">
+        <item>2017-12-01</item>
+        <item>2017-11-24</item>
+        <item>2017-11-17</item>
+        <item>2017-11-10</item>
+        <item>2017-11-03</item>
+    </array>
+</resources>

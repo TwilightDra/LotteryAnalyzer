@@ -6,4 +6,261 @@
     android:layout_height="match_parent"
     tools:context="com.td.lotteryanalyzer.others.WinningSearch">
 
+    <TextView
+        android:id="@+id/txt_label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="This Month (Dec) you would have won"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label2" />
+
+    <TextView
+        android:id="@+id/txt_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="If you'd played these numbers"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label1" />
+
+    <TextView
+        android:id="@+id/txt_labelTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/txt_label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="You searched for:"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_wt1"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="04"
+        app:layout_constraintLeft_toRightOf="@+id/txt_label1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+    <TextView
+        android:id="@+id/txt_wt2"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text="06"
+        app:layout_constraintLeft_toRightOf="@+id/txt_wt1"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_wt3"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="25"
+        app:layout_constraintLeft_toRightOf="@+id/txt_wt2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_wt4"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="33"
+        app:layout_constraintLeft_toRightOf="@+id/txt_wt3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_wt5"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="38"
+        app:layout_constraintLeft_toRightOf="@+id/txt_wt4"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_wt6"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="44"
+        app:layout_constraintLeft_toRightOf="@+id/txt_wt5"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_wt7"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="47"
+        app:layout_constraintLeft_toRightOf="@+id/txt_wt6"
+        app:layout_constraintTop_toBottomOf="@+id/txt_labelTitle1" />
+
+    <TextView
+        android:id="@+id/txt_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="0"
+        app:layout_constraintLeft_toRightOf="@+id/txt_label3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label2" />
+
+    <TextView
+        android:id="@+id/txt_label3e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:text="times"
+        app:layout_constraintLeft_toRightOf="@+id/txt_times"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label2" />
+
+    <TextView
+        android:id="@+id/txt_label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Date:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label3" />
+
+    <TextView
+        android:id="@+id/txt_date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="2017-12-01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label4" />
+
+    <TextView
+        android:id="@+id/txt_date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="2017-11-24"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_date1" />
+
+    <TextView
+        android:id="@+id/txt_date3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="2017-11-17"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_date2" />
+
+    <TextView
+        android:id="@+id/txt_label4m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="16dp"
+        android:text="Numbers"
+        app:layout_constraintLeft_toRightOf="@+id/txt_label4"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label3" />
+
+    <TextView
+        android:id="@+id/txt_label4e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="16dp"
+        android:text="Bonus"
+        app:layout_constraintLeft_toRightOf="@+id/txt_label4m"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label3" />
+
+    <TextView
+        android:id="@+id/txt_num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="26 28 33 38 42 43 47"
+        app:layout_constraintLeft_toRightOf="@+id/txt_date1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label4m" />
+
+    <TextView
+        android:id="@+id/txt_bo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="16dp"
+        android:text="16"
+        app:layout_constraintLeft_toRightOf="@+id/txt_num1"
+        app:layout_constraintTop_toBottomOf="@+id/txt_label4e" />
+
+    <TextView
+        android:id="@+id/txt_num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="05 11 20 22 35 38 46"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toRightOf="@+id/txt_date2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_num1" />
+
+    <TextView
+        android:id="@+id/txt_bo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="16dp"
+        android:text="45"
+        android:visibility="invisible"
+        app:layout_constraintLeft_toRightOf="@+id/txt_num2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_bo1" />
+
+    <TextView
+        android:id="@+id/txt_num3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:text="03 15 22 23 33 47 49"
+        app:layout_constraintLeft_toRightOf="@+id/txt_date3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_num2" />
+
+    <TextView
+        android:id="@+id/txt_bo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="16dp"
+        android:text="06"
+        app:layout_constraintLeft_toRightOf="@+id/txt_num3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_bo2" />
+
 </android.support.constraint.ConstraintLayout>

@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".others.DrawTrend" />
         <activity android:name=".others.WinningSearch" />
-        <activity android:name=".others.Analyzer"></activity>
+        <activity android:name=".others.Analyzer" />
+        <activity android:name=".utils.TestAct"></activity>
     </application>
 
 </manifest>
