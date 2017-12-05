@@ -19,7 +19,7 @@ import com.td.lotteryanalyzer.others.DrawTrend;
 import com.td.lotteryanalyzer.others.WinningSearch;
 
 public class LottoAnalyzer extends AppCompatActivity {
-
+// 04 06 25 33 38 44 47
     public String dbName;
     public SQLiteDatabase db;
     private int IdCheck;

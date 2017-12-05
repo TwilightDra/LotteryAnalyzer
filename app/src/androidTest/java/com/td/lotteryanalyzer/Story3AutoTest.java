@@ -48,6 +48,7 @@ public class Story3AutoTest {
         onView(withId(R.id.btn_winSearch)).perform(click());
         //onData(anything()).atPosition(2).perform(click());
         onView(withId(R.id.txt_num1)).check(matches(withText(containsString("33"))));
+        onView(withId(R.id.txt_num1)).check(matches(withText(containsString("47"))));
         /*onView(withId(R.id.txt_n1)).check(matches(withText("03")));
         onView(withId(R.id.txt_n2)).check(matches(withText("15")));
         onView(withId(R.id.txt_nb)).check(matches(withText("06")));*/

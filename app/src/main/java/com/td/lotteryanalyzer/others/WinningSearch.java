@@ -9,10 +9,12 @@ import com.td.lotteryanalyzer.core.LottoAnalyzer;
 
 public class WinningSearch extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_winning_search);
         Toast.makeText(this,LottoAnalyzer.nbs[0].toString(),Toast.LENGTH_SHORT).show();
+
     }
 }
